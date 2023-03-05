@@ -4,8 +4,8 @@ This Documentation is a subset of the Modern JavaScript Bootcamp course.
 - section 32 - 33: The Basics of Testing by Stephen Grider & Colt Steele. 
 
 ## What is Testing?
-Testing is basically scrutinizing the functionality of an application.
-Testing is recursively automating this process to improve performance.
+- Testing is basically scrutinizing the functionality of an application.
+- Testing is recursively automating this process to improve performance.
 
 ## Goals of Testing
 - Automate the process of checking if an app works as expected
