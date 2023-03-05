@@ -1,4 +1,4 @@
-# Getting started with Testing by Gideon Chino
+# Getting started with Testing, by Gideon Chino
 
 This Documentation is a subset of the Modern JavaScript Bootcamp course.
 Section (32-33) => The Basics of Testing by Steven Grider & Colt Steele. 
