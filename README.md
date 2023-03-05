@@ -72,7 +72,7 @@ Autocomplete.js is one functionality to be tested and perhaps re-asserted.
 To successfully write a browser-based test framework, we need to architecture.
 TME or 'test me' will prioritize the following artitectural pattern and rules.
 
-The first half of these rules (1-3), if applied will implement the rest (4-6).
+The first half of these rules (1-3), if applied, will implement the rest (4-6).
 
 1. Must be a Node-based CLI framework
 2. Must be basic implementation setup
@@ -89,20 +89,20 @@ To run code or chunk of codes as a CLI tool, do a CLI setup.
 In your app, create an index file. You may call it index.js.
 
 * At the top, initialize your binary environment
-#!/usr/bin/env node
+* #!/usr/bin/env node
 ________________________________________________
 
 In your app directory, install a package manager. 
 For npm, run 'npm init -y'
 
 * Go to package.json file, add the environment initialized
-"bin": { "tme": "index.js" }
+* "bin": { "tme": "index.js" }
 __________________________________________________________
 
 npm link | symlink targets package as a dependency in our cwd.
 
 * Under the app directory, in your terminal, run 'npm link'
--> tme npm link
+* -> tme npm link
 ___________________________________________________________
 
 Note: 
