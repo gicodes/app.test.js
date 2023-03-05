@@ -8,9 +8,9 @@ Testing is basically scrutinizing the functionality of an application.
 Testing is recursively automating this process to improve performance.
 
 ## Goals of Testing
-Automate the process of checking if an app works as expected
-Keeps us from manually clicking around our app to find bugs
-Ensures an app works as expected even after changes occur
+- Automate the process of checking if an app works as expected
+- Keeps us from manually clicking around our app to find bugs
+- Ensures an app works as expected even after changes occur
 
 
 # ## SECTION OPERATIONS
