@@ -35,7 +35,7 @@ hi-dash will implement a couple functions from the lo_dash library.
   _.map(collection, [iteratee])
 
 
-# 2. ## Test it without an external library
+### 2. Test it without an external library
 The test library implemented in this section contains (2) basic functions as defined above.
 The forEach method, and the map method: both tested, and works without an external library.
 
