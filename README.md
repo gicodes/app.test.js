@@ -83,7 +83,7 @@ The first half of these rules (1-3), if applied, will implement the rest (4-6).
 5. CLI must use a 'watch mode' to avoid restarting the app
 
 
-### 1 Node-based CLI framework integration
+### 1. Node-based CLI framework integration
 To run code or chunk of codes as a CLI tool, do a CLI setup.
 
 In your app, create an index file. You may call it index.js.
@@ -110,7 +110,7 @@ if you get 'npm ERR! code EACCES | symlink npm ERR' when you run command, see
 http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions
 
 
-### 2 Basic Implementation setup steps
+### 2. Basic Implementation setup steps
 For a basic implementation, these steps or rules must apply.
 
 * File Collection`
@@ -134,7 +134,7 @@ Note: As at this time of writing, Chalk ^5 has changed to ESM only.
 If you try to require in chalk and it fails, run npm i chalk@4.1.2.
 
 
-### 3 Running Browser-based JS apps
+### 3. Running Browser-based JS apps
 In a nutshell, browser-based execution can be a bit trickish.
 This is because node.js does not directly interact with a DOM.
 That means we have to use a specific approach: JS-DOM library.
@@ -168,8 +168,8 @@ We can use the option, resources: 'usable' as an effective way to load script.
 
 * At this point, our test framework- tme;
 
-### 4 tests full applications, not just snippets
+### 4. tests full applications, not just snippets
 
-### 5 automatically finds and runs all 'test.js' files
+### 5. automatically finds and runs all 'test.js' files
 
-### 6 uses a watch mode to avoid restarting the app
+### 6. uses a watch mode to avoid restarting the app
