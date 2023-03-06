@@ -13,7 +13,7 @@ This Documentation is a subset of the Modern JavaScript Bootcamp course.
 - Ensures an app works as expected even after changes occur
 
 
-# ## SECTION OPERATIONS
+### SECTION OPERATIONS
 In this Section we will:
 
 1. Write a tiny node project
@@ -26,7 +26,7 @@ In this Section we will:
 6. Write a custom test framework that works in 80% of projects
 
 
-# 1. ## Write a tiny node project: HI-DASH  
+### 1. Write a tiny node project: HI-DASH  
 To write our custom test library, Hi-dash, we may need a reference.
 hi-dash will implement a couple functions from the lo_dash library.
 
@@ -40,7 +40,7 @@ The test library implemented in this section contains (2) basic functions as def
 The forEach method, and the map method: both tested, and works without an external library.
 
 
-# 3. ## Test it with an external library: MOCHA
+### 3. Test it with an external library: MOCHA
 Mocha is a feature-rich Javascript test framework running on Node.js and in the browser.
 The aim of this section is to run a Mocha framework against our hi-dash test library.
 
@@ -57,18 +57,18 @@ enter index.test.js and change the "test()" function to "it()"
 enter the workspace terminal and run "mocha index.test.js"
 
 
-# 4. ## See project we built earlier in the course: MOVIES
+### 4. See project we built earlier in the course: MOVIES
 The movies project was built on Vanilla Javascript and CSS. 
 It was written, and later modified to Film-Farm by gi codes.
 The o,g project was released to github and deployed to Vercel.
 
 
-# 5. ## Test it using an external library: MOCHA && ASSERTIONS
+### 5. Test it using an external library: MOCHA && ASSERTIONS
 The aim of this section is to test portions of the project functionality.
 Autocomplete.js is one functionality to be tested and perhaps re-asserted.
 
 
-# 6. ## Write a custom browser-based test framework: TME | TEST ME
+### 6. Write a custom browser-based test framework: TME | TEST ME
 To successfully write a browser-based test framework, we need to architecture.
 TME or 'test me' will prioritize the following artitectural pattern and rules.
 
@@ -83,7 +83,7 @@ The first half of these rules (1-3), if applied, will implement the rest (4-6).
 5. CLI must use a 'watch mode' to avoid restarting the app
 
 
-# 1 ## Node-based CLI framework integration
+### 1 ## Node-based CLI framework integration
 To run code or chunk of codes as a CLI tool, do a CLI setup.
 
 In your app, create an index file. You may call it index.js.
@@ -110,7 +110,7 @@ if you get 'npm ERR! code EACCES | symlink npm ERR' when you run command, see
 http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions
 
 
-# 2 ## Basic Implementation setup steps
+### 2 Basic Implementation setup steps
 For a basic implementation, these steps or rules must apply.
 
 * File Collection`
@@ -134,7 +134,7 @@ Note: As at this time of writing, Chalk ^5 has changed to ESM only.
 If you try to require in chalk and it fails, run npm i chalk@4.1.2.
 
 
-# 3 ## Running Browser-based JS apps
+### 3 Running Browser-based JS apps
 In a nutshell, browser-based execution can be a bit trickish.
 This is because node.js does not directly interact with a DOM.
 That means we have to use a specific approach: JS-DOM library.
@@ -168,8 +168,8 @@ We can use the option, resources: 'usable' as an effective way to load script.
 
 * At this point, our test framework- tme;
 
-# 4 ## tests full applications, not just snippets
+### 4 tests full applications, not just snippets
 
-# 5 ## automatically finds and runs all 'test.js' files
+### 5 automatically finds and runs all 'test.js' files
 
-# 6 ## uses a 'watch mode' to avoid restarting applications
+### 6 uses a 'watch mode' to avoid restarting applications
