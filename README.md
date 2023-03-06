@@ -83,7 +83,7 @@ The first half of these rules (1-3), if applied, will implement the rest (4-6).
 5. CLI must use a 'watch mode' to avoid restarting the app
 
 
-### 1 ## Node-based CLI framework integration
+### 1 Node-based CLI framework integration
 To run code or chunk of codes as a CLI tool, do a CLI setup.
 
 In your app, create an index file. You may call it index.js.
