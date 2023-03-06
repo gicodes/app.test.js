@@ -172,4 +172,4 @@ We can use the option, resources: 'usable' as an effective way to load script.
 
 ### 5 automatically finds and runs all 'test.js' files
 
-### 6 uses a 'watch mode' to avoid restarting applications
+### 6 uses a watch mode to avoid restarting applications
