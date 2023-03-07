@@ -25,7 +25,6 @@ In this Section we will:
 
 6. Write a custom test framework that works in 80% of projects
 
-
 ### 1. Write a tiny node project: HI-DASH  
 To write our custom test library, Hi-dash, we may need a reference.
 hi-dash will implement a couple functions from the lo_dash library.
@@ -165,7 +164,6 @@ If you are running untrusted Node.js code, your machine could be compromised.
 Since we want to execute external script included via <script src='index.js'>
 We can use the option, resources: 'usable' as an effective way to load script.
 
-
 * At this point, our test framework- tme;
 
 ### 4. tests full applications, not just snippets
@@ -173,3 +171,5 @@ We can use the option, resources: 'usable' as an effective way to load script.
 ### 5. automatically finds and runs all 'test.js' files
 
 ### 6. uses a watch mode to avoid restarting the app
+
+# Designed & Developed by Gideon, I
