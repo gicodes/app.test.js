@@ -1,4 +1,5 @@
 # Getting started with Testing, by Gideon Chino
+### app.test.js
 
 This Documentation is a subset of the Modern JavaScript Bootcamp course.
 - section 32 - 33: The Basics of Testing by Stephen Grider & Colt Steele. 
@@ -27,7 +28,7 @@ In this Section we will:
 
 ### 1. Write a tiny node project: HI-DASH  
 To write our custom test library, Hi-dash, we may need a reference.
-hi-dash will implement a couple functions from the lo_dash library.
+Hi-dash will implement a couple functions from the lo_dash library.
 
   _.ForEach(collection, [iterator])
 
@@ -83,6 +84,7 @@ The first half of these rules (1-3), if applied, will implement the rest (4-6).
 
 
 ### 1. Node-based CLI framework integration
+
 To run code or chunk of codes as a CLI tool, do a CLI setup.
 
 In your app, create an index file. You may call it index.js.
@@ -110,6 +112,7 @@ http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions
 
 
 ### 2. Basic Implementation setup steps
+
 For a basic implementation, these steps or rules must apply.
 
 * File Collection`
@@ -134,6 +137,7 @@ If you try to require in chalk and it fails, run npm i chalk@4.1.2.
 
 
 ### 3. Running Browser-based JS apps
+
 In a nutshell, browser-based execution can be a bit trickish.
 This is because node.js does not directly interact with a DOM.
 That means we have to use a specific approach: JS-DOM library.
@@ -158,7 +162,8 @@ Now we have a jsdom library and JSDOM, we can now create a new instance.
   });
   return dom;
 
-Note: 
+!! Note: 
+
 Only run the script 'dangerously' when feeding the DOM code you know is safe. 
 If you are running untrusted Node.js code, your machine could be compromised.
 Since we want to execute external script included via <script src='index.js'>
